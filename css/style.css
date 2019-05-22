@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+#map {
+  width: 90%;
+  height: 90vh;
+}
+
+#loading > img {
+  width: 150px;
+}
+#loading {
+  position: fixed;
+  z-index: 250;
+  display: none;
+}
